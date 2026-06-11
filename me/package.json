@@ -1,19 +1,25 @@
 {
   "name": "begzod-portfolio",
   "version": "1.0.0",
-  "description": "Begzod Portfolio - Frontend Developer & Logo Designer",
-  "main": "index.html",
+  "description": "Personal portfolio for Begzod — Frontend Developer & Logo Designer",
+  "main": "index.js",
   "scripts": {
     "dev": "netlify dev",
-    "build": "echo 'Static site - no build required'",
-    "serve": "npx http-server"
+    "build": "echo 'No build step required for static site'",
+    "start": "netlify dev"
   },
+  "keywords": [
+    "portfolio",
+    "frontend",
+    "developer",
+    "logo-design"
+  ],
+  "author": "Begzod Normuminov",
+  "license": "MIT",
   "dependencies": {
     "nodemailer": "^6.9.7"
   },
-  "devDependencies": {
-    "netlify-cli": "^17.11.1"
-  },
+  "devDependencies": {},
   "engines": {
     "node": "18.x"
   }
